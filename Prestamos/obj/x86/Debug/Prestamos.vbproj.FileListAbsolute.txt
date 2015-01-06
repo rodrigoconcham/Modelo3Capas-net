@@ -1,0 +1,9 @@
+C:\prestamos\Prestamos\obj\x86\Debug\Prestamos.Resources.resources
+C:\prestamos\Prestamos\obj\x86\Debug\Prestamos.vbproj.GenerateResource.Cache
+C:\prestamos\Prestamos\bin\Debug\Prestamos.exe.config
+C:\prestamos\Prestamos\bin\Debug\Prestamos.exe
+C:\prestamos\Prestamos\bin\Debug\Prestamos.pdb
+C:\prestamos\Prestamos\bin\Debug\Prestamos.xml
+C:\prestamos\Prestamos\obj\x86\Debug\Prestamos.exe
+C:\prestamos\Prestamos\obj\x86\Debug\Prestamos.xml
+C:\prestamos\Prestamos\obj\x86\Debug\Prestamos.pdb
