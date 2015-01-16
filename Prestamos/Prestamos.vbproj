@@ -93,6 +93,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PrestamosDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Vista\Cliente.Designer.vb">
+      <DependentUpon>Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -100,6 +106,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Cliente.resx">
+      <DependentUpon>Cliente.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -131,10 +140,10 @@
   <ItemGroup>
     <Content Include="bin\Debug\Prestamos.vshost.exe" />
     <Content Include="obj\x86\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <None Include="Resources\Save.bmp" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Negocio\" />
-    <Folder Include="Vista\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

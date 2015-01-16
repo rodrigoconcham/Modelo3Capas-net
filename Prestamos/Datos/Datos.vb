@@ -164,7 +164,7 @@
         End Property
 
 
-        Public Sub insertar(ByVal idCliente As Integer, ByVal monto As Decimal, ByVal fechaini As Date, ByVal fechafin As Date, ByVal intereses As float)
+        Public Sub insertar(ByVal idCliente As Integer, ByVal monto As Decimal, ByVal fechaini As Date, ByVal fechafin As Date, ByVal intereses As Decimal)
 
 
 
@@ -319,10 +319,11 @@
 
         Public Function ObtenerAbonos(ByVal cuenta As Integer) As DataRow
 
-            Dim dr() As DataRow
+            'Pendiente por error
+            ' Dim dr() As Data.DataRow
 
-            dr = adt.Select("IdCuenta =" & cuenta)
-            Return dr
+            'dr = adt.Select("IdCuenta =" & cuenta)
+            'Return dr
 
         End Function
 
